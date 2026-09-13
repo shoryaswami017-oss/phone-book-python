@@ -1,28 +1,36 @@
-# 📱 Phone Book in Python
+# 📱 Phone Book Application
 
-A simple command-line Phone Book application built using Python.
+A simple command-line Phone Book application built with Python.
 
-## Features
+The application allows users to add, search, delete, and display contacts. It also uses JSON file storage to keep contacts saved even after the program is closed.
 
-- Add a contact
-- Search for a contact
-- Delete a contact
-- Display all contacts
+## ✨ Features
 
-## Concepts Used
+- ➕ Add a new contact
+- 🔍 Search for a contact
+- 🗑️ Delete a contact
+- 📋 Display all contacts
+- 💾 Save contacts using JSON file storage
+- 🔄 Automatically load saved contacts when the program starts
+- ⚠️ Handles an empty phone book
+- ❌ Handles invalid menu choices
 
-- Python Dictionaries
+## 🛠️ Technologies Used
+
+- Python
+- JSON
+- File Handling
+- Dictionaries
 - Functions
-- Loops
 - Conditional Statements
-- User Input
+- Loops
 
-## How to Run
+## 📂 Project Structure
 
-```bash
-python phone_book.py
-```
-
-## Author
-
-Shorya Swami
+```text
+phone-book-python/
+│
+├── phone_book.py
+├── README.md
+├── .gitignore
+└── contacts.json
